@@ -1,0 +1,32 @@
+
+/* animation */
+.background-animated {
+    width: 100%;
+    height: 404px;
+    position: absolute;
+    background-color: #4277a3;
+    background-image: url("https://andreivictor.ro/codepen/infinite-scroll-bg/infinite-scroll-bg-explained.jpg");
+    -webkit-animation: infiniteScrollBg 35s linear infinite;
+            animation: infiniteScrollBg 35s linear infinite;
+  }
+  
+  @-webkit-keyframes infiniteScrollBg {
+    0% {
+      background-position: 50% 0;
+    }
+    100% {
+      background-position: 50% -808px;
+    }
+  }
+  
+  @keyframes infiniteScrollBg {
+    0% {
+      background-position: 50% 0;
+    }
+    100% {
+      background-position: 50% -808px;
+    }
+  }
+
+  /* form */
+  
